@@ -1,0 +1,3 @@
+/* cfg/config.h.  Generated from config.h.in by configure.  */
+
+#define PACKAGE_STRING "0.1"

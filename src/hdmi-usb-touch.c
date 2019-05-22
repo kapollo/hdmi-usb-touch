@@ -159,7 +159,7 @@ main (int argc, char *argv[])
 			if (retRead < 0)
 				break;
 			if (retRead != sizeof(rawTouchMsg)) {
-				LOG(3, "only received %zd out of %ld expected\n", retRead, sizeof(rawTouchMsg));
+				LOG(3, "only received %zd out of %d expected\n", retRead, sizeof(rawTouchMsg));
 				continue;
 			}
 			log_raw_touch_event(rawTouchMsg);
